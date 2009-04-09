@@ -24,16 +24,17 @@ Author URI: http://paradoxdgn.com
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+
 function addCSS() {
-	return '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') . '/wp-content/plugins/review-box/review-box.css" />';
+	echo '<link type="text/css" rel="stylesheet" href="' . plugins_url ( plugin_basename ( dirname ( __FILE__ ) ) ) .'/review-box.css" />';
 
 }
 
 function review_prettify($atts) {
 	extract( shortcode_atts( array(
 		'score' => '100',
-		'pros' => 'None. This must really suck.',
-		'cons' => 'None. This must really rock.',
+		'pros' => '<em>None</em>',
+		'cons' => '<em>None</em>',
 		), $atts ));
 	if ( $score > 100 ) {
 		$score = 100;

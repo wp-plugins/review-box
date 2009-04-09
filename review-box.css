@@ -74,4 +74,5 @@ text-align:left;
 }
 .review .mainbox .review_grid tr td .rating_bg .rating_bar .rating_bar_content {
 padding-left:2px;
+color: white !important;
 }

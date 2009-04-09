@@ -3,7 +3,7 @@ Contributors: paradox460
 Tags: review, rating, box, post, cons, pros, score
 Requires at least: 2.5
 Tested up to: 2.7.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 Provides a simple shortcode to generate a box for writing reviews. Supports pros, cons, and a numerical score.
 
@@ -36,6 +36,16 @@ If you do not fill out the score value, the plugin will default to 100
 
 The score should be an integer between 0 and 100. It will ultimately come out as a percentage.
 **The score does not need a % sign following it. Adding one will make the sky fall on your head**
+
+== Screenshots ==
+1. Example of this plugin's output. Quite clean, isnt it?
+
+== Changelog ==
+= 1.0.1 =
+* Fixed CSS loading bug.
+* Added screenshot
+= 1.0 =
+* Created plugin
 
 == Usage ==
 This plugin generates a simple shortcode to use.
