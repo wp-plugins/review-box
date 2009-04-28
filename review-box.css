@@ -62,6 +62,8 @@ width:40px;
 .review .mainbox .review_grid tr td .rating_bg {
 background:#D8DFEA none repeat scroll 0 0;
 position:relative;
+width: 450px;
+border: 1px solid #3B5998;
 }
 .review .mainbox .review_grid tr td .rating_bg .rating_bar {
 background:#3B5998 none repeat scroll 0 0;

@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Review Box
-Version: 1.0.2
+Version: 1.0.3
 Plugin URI: http://www.paradoxdgn.com/archives/622
 Description: Creates a box for reviewers, with pros, cons, and a score bar. Use <code>[review pros="pros" cons="cons" score=85]</code> to insert. <em>score must be a percentage value, without the % sign</em>
 Author: Paradox
