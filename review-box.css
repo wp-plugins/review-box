@@ -12,6 +12,7 @@ color:white;
 font-size:11px;
 margin:0;
 padding:5px;
+text-shadow: rgba(0, 0, 0, 0.25) 0px -1px 1px;
 }
 .review .mainbox {
 background:white none repeat scroll 0 0;
@@ -62,7 +63,6 @@ width:40px;
 .review .mainbox .review_grid tr td .rating_bg {
 background:#D8DFEA none repeat scroll 0 0;
 position:relative;
-width: 450px;
 border: 1px solid #3B5998;
 }
 .review .mainbox .review_grid tr td .rating_bg .rating_bar {
@@ -77,4 +77,5 @@ text-align:left;
 .review .mainbox .review_grid tr td .rating_bg .rating_bar .rating_bar_content {
 padding-left:2px;
 color: white !important;
+text-shadow: rgba(0, 0, 0, 0.75) 0px -1px 1px;
 }
